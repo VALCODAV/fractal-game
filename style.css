@@ -1,0 +1,57 @@
+.body {
+	margin: 0;
+	padding: 0;
+	background-color: #34495e;
+}
+
+.content {
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+#canvas {
+	background-color: #f3f3f3;
+}
+
+.controls {
+	padding: 5px 0 10px;
+}
+
+#iterations {
+	margin-left: 50px;
+}
+
+.checkbox_wrap {
+	display: inline-block;
+}
+
+.checkbox_wrap label {
+	color: #fff;
+}
+
+#start_iterations {
+	margin-left: 10px;
+}
+
+#stop_iterations {
+	margin-left: 10px;
+	display: none;
+}
+
+.counter_wrap {
+	margin-left: 10px;
+	color: #fff;
+}
+
+#clear {
+	float: right;
+}
+
+#logs {
+	width: 100%;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+}

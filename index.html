@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Math</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+	<div class="content">
+		<div class="canvas">
+			<canvas id="canvas" width="800" height="550"></canvas>
+		</div>
+		<div class="controls">
+			<select id="figure">
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="21">21</option>
+				<option value="100">100</option>
+			</select>
+			<select id="distance">
+				<option value="0.1">0.1</option>
+				<option value="0.2">0.2</option>
+				<option value="0.3">0.3</option>
+				<option value="0.4">0.4</option>
+				<option value="0.5" selected>0.5</option>
+				<option value="0.6">0.6</option>
+				<option value="0.7">0.7</option>
+				<option value="0.8">0.8</option>
+				<option value="0.9">0.9</option>
+			</select>
+			<button id="next">next dot</button>
+
+			<input id="iterations" type="number" min="1" placeholder="iteration count">
+			<div class="checkbox_wrap">
+		        <input type="checkbox" id="animation" name="animation" checked />
+		        <label for="animation">Animation</label>
+		    </div>
+			<button id="start_iterations">start</button>
+			<button id="stop_iterations">stop</button>
+			<span class="counter_wrap">count: <i id="counter">0</i></span>
+
+			<button id="clear">clear</button>
+		</div>
+		<!-- <div class="logs">
+			<textarea id="logs"></textarea>
+		</div> -->
+	</div>
+
+	<script src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
